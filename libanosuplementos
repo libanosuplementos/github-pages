@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Líbano Suplementos</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; scroll-behavior: smooth; }
+    header { background-color: #000; color: #fff; padding: 20px; position: sticky; top: 0; z-index: 999; display: flex; justify-content: space-between; align-items: center; }
+    header nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    .hero { background-color: #111; color: #fff; padding: 100px 20px; text-align: center; }
+    .hero button { background-color: #28a745; color: white; padding: 15px 30px; border: none; border-radius: 5px; font-size: 16px; }
+    .section { padding: 60px 20px; text-align: center; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .product-card { background-color: #f3f3f3; border-radius: 8px; padding: 20px; width: 250px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .whatsapp-btn { background-color: #28a745; color: white; padding: 15px 25px; border: none; border-radius: 5px; font-size: 18px; margin-top: 20px; }
+    footer { background-color: #000; color: #fff; text-align: center; padding: 30px 10px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>Líbano Suplementos</strong></div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Potencial máximo começa com a nutrição certa.</h1>
+    <p>Na <strong>Líbano Suplementos</strong>, você encontra os melhores produtos para treinar com foco, força e resultado.</p>
+    <a href="https://wa.me/seunumerodowhatsapp" target="_blank">
+      <button>Fale agora no WhatsApp</button>
+    </a>
+  </section>
+
+  <section id="produtos" class="section">
+    <h2>🔥 Produtos que aceleram seus resultados</h2>
+    <div class="products">
+      <div class="product-card">
+        <h3>Pré-Treinos Insanos</h3>
+        <p>Energia e foco pra detonar no treino</p>
+      </div>
+      <div class="product-card">
+        <h3>Whey Protein Premium</h3>
+        <p>Mais músculo, menos gordura</p>
+      </div>
+      <div class="product-card">
+        <h3>Creatina 100% Pura</h3>
+        <p>Explosão de força e recuperação</p>
+      </div>
+      <div class="product-card">
+        <h3>Termogênicos Potentes</h3>
+        <p>Acelere o metabolismo e queime gordura</p>
+      </div>
+    </div>
+    <a href="https://wa.me/seunumerodowhatsapp" target="_blank">
+      <button class="whatsapp-btn">Ver todos via WhatsApp</button>
+    </a>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Quem somos</h2>
+    <p>A <strong>Líbano Suplementos</strong> nasceu com um propósito: oferecer produtos de alta performance para quem leva o treino a sério.<br>
+    Aqui, você encontra <strong>qualidade, confiança e atendimento personalizado</strong>, direto no WhatsApp.<br>
+    Seja você iniciante ou atleta avançado, temos o suplemento certo para o seu objetivo.</p>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Fale com a gente</h2>
+    <p>Tire dúvidas, peça recomendações ou faça seu pedido.<br>
+    Atendimento rápido e direto via WhatsApp.</p>
+    <a href="https://wa.me/seunumerodowhatsapp" target="_blank">
+      <button class="whatsapp-btn">Quero meu suplemento agora</button>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 Líbano Suplementos. Todos os direitos reservados.</p>
+    <p>Instagram | WhatsApp | Política de Privacidade</p>
+  </footer>
+
+</body>
+</html>
